@@ -35,9 +35,9 @@ const HeroBanner = () => {
      <div className='opacity-layer'></div>
      <ContentWrapper>
       <div className='heroBannerContent'>
-        <span className='title'> Welcome.</span>
+        <span className='title'>Cineverse</span>
         <span className='subTitle'>
-        Millions of movies,TV shows and people to discover.
+        Unleash the Magic of Cinema – Discover, Stream, and Experience Movies Like Never Before
         Explore now.
         </span>
         <div className='searchInput'>

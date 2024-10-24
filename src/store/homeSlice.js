@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const homeSlice = createSlice({
   name: 'home',
   initialState :{
-    url:{name:"jsdev"},
+    url:{name:"sharthak"},
     genres:{}
   },
   reducers: {

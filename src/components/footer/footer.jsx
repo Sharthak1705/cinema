@@ -1,14 +1,14 @@
 import React from "react";
 import {
-    FaFacebookF,
     FaInstagram,
     FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
-
+import { FaSnapchat } from "react-icons/fa6";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -29,19 +29,18 @@ const Footer = () => {
                 Join us in celebrating the art of film making and discover your next favorite movie.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
+                <a href="https://web.snapchat.com/" target="_blank" rel="noopener noreferrer" className="icon">
+                <FaSnapchat />
+                    </a>
+                    <a href="https://www.instagram.com/j.sharthak/" target="_blank" rel="noopener noreferrer" className="icon">
                         <FaInstagram />
-                    </span>
-                    <span className="icon">
+                    </a>
+                    <a href="https://x.com/home?lang=en" target="_blank" rel="noopener noreferrer" className="icon">
                         <FaTwitter />
-                        
-                    </span>
-                    <span className="icon">
+                    </a>
+                    <a href="https://linkedin.com/in/sharthak-jain-b03442225/" target="_blank" rel="noopener noreferrer" className="icon">
                         <FaLinkedin />
-                    </span>
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
